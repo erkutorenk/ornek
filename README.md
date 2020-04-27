@@ -2,4 +2,4 @@
 
 Komutlar: 
 
-/start, butonlar
+/start, buton
