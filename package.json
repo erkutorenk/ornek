@@ -1,7 +1,7 @@
 {
   "name": "botsohbet",
   "version": "1.0.0",
-  "description": "",
+  "description": "Örnek bot",
   "main": "index.js",
   "scripts": {
     "start": "npm run glitch:start",
@@ -9,6 +9,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "glitch:start": "bash ./scripts/glitch/init.sh",
     "nvm:init": "bash ./scripts/nvm/init.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/botsohbet/ornek.git"
   },
   "license": "AGPL-3.0",
   "dependencies": {
