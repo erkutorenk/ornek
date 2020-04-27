@@ -1,0 +1,22 @@
+{
+  "name": "botsohbet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run glitch:start",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "glitch:start": "bash ./scripts/glitch/init.sh",
+    "nvm:init": "bash ./scripts/nvm/init.sh"
+  },
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "telegraf": "^3.37.0"
+  },
+  "engines": {
+    "node": ">=12.3.1"
+  }
+}
