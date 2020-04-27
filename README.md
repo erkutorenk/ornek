@@ -1,3 +1,6 @@
 # Örnek Telegram Bot
 
-Komutlar: /start, butonlar
+Komutlar: 
+
+/start
+butonlar
